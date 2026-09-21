@@ -12,7 +12,7 @@ int main(){
     std::cin >>x;
     std::cout << "Enter the second number:";
     std::cin>>y;
-    
+    //Taking operation from user input and using else if statements to perform the various algebraic operations
     std::cout << "Enter the operation:";
     std::cin >>operation;
     if (operation=="+"){
