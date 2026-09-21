@@ -1,8 +1,9 @@
 #include <iostream>
+#include <string>
 
 //Assigning values
-     int x,y;
-
+ int x,y;
+ std::string operation;   
 //Fn to take user input and display the result
 
 int main(){
@@ -11,6 +12,20 @@ int main(){
     std::cin >>x;
     std::cout << "Enter the second number:";
     std::cin>>y;
-    std::cout <<"The sum of the two numbers is:"<<x+y;
+    
+    std::cout << "Enter the operation:";
+    std::cin >>operation;
+    if (operation=="+"){
+        std::cout << "The result is:"<< x+y; 
+    }
+    else if (operation=="-"){
+        std::cout<< "The result is:"<<x-y;
+    }
+    else if (operation=="*"){
+        std:: cout<< " The result is:"<<x*y;
+    }
+    else if (operation=="/"){
+        std:: cout<< " The result is:"<<x/y;
+    }
     return 0;
 }
