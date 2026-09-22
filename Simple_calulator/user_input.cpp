@@ -5,7 +5,6 @@
  int x,y;
  std::string operation;   
 //Fn to take user input and display the result
-
 int main(){
     
     std::cout << "Enter the first number:";
