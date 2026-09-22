@@ -1,6 +1,6 @@
 #include <iostream>
 
-int x =10;
+auto x =10;//automatically detects the variable type based on the assigned value
 int y =10;
 //bool result = x>y
 int main(){
